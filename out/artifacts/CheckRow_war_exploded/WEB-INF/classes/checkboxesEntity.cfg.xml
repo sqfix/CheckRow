@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.CheckboxesEntity" table="checkboxes">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="checkboxRow" column="checkbox_row" type="java.lang.Integer"/>
+        <property name="checkboxCol" column="checkbox_col" type="java.lang.Integer"/>
+
+    </class>
+</hibernate-mapping>
